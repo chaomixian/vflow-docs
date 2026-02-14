@@ -2,46 +2,42 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 什么是 vFlow？
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**vFlow** 是一款为 Android 平台设计的强大且高度可扩展的自动化工具。它允许你通过图形化界面，将一系列"动作模块"自由组合成强大的"工作流"，从而自动完成各种日常的、重复性的屏幕操作任务。
 
-## Getting Started
+## 核心特性
 
-Get started by **creating a new site**.
+### 可视化流程编辑器
+通过拖拽和点击，像搭积木一样构建你的自动化流程。无需编写代码，轻松创建复杂的自动化任务。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 高度模块化
+每个功能都是一个独立的模块（点击、查找文本、判断等），易于维护和扩展，支持自定义模块开发。
 
-### What you'll need
+### 动态数据流
+模块的输出可以作为后续模块的输入（魔法变量），实现复杂的逻辑联动，让工作流更智能。
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 强大的逻辑控制
+支持"如果/否则"条件判断和"循环"等控制流，让你的工作流更智能。
 
-## Generate a new site
+### 完善的权限管理
+在执行前清晰地请求工作流所需的权限，并提供统一的管理入口。
 
-Generate a new Docusaurus site using the **classic template**.
+## 快速开始
 
-The classic template will automatically be added to your project after you run the command:
+1. 从 [GitHub Releases](https://github.com/ChaoMixian/vFlow/releases) 下载并安装 vFlow
+2. 授予必要的无障碍服务权限
+3. 创建你的第一个工作流
+4. 运行并体验自动化
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## 文档结构
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **核心概念** - 了解 vFlow 的基本架构和工作原理
+- **模块参考** - 所有可用模块的详细说明
+- **开发指南** - 如何为 vFlow 开发自定义模块
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 相关链接
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [GitHub 仓库](https://github.com/ChaoMixian/vFlow)
+- [问题反馈](https://github.com/ChaoMixian/vFlow/issues)
+- [下载应用](https://github.com/ChaoMixian/vFlow/releases)

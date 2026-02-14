@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '可视化编辑器',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        通过拖拽和点击，像搭积木一样构建你的自动化流程。
+        无需编写代码，轻松创建复杂的自动化任务。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '高度模块化',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        每个功能都是一个独立的模块（点击、查找文本、判断等），
+        易于维护和扩展，支持自定义模块开发。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '动态数据流',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        模块的输出可以作为后续模块的输入（魔法变量），
+        实现复杂的逻辑联动，让工作流更智能。
       </>
     ),
   },

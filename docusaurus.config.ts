@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'vFlow Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Android 可视化工作流自动化工具',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'vFlow',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'vFlow Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,11 +85,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '文档',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ChaoMixian/vFlow',
           label: 'GitHub',
           position: 'right',
         },
@@ -99,46 +98,46 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Tutorial',
+              label: '快速开始',
               to: '/docs/intro',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '核心概念',
+              to: '/docs/core/concepts',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: '模块参考',
+              to: '/docs/modules/overview',
             },
           ],
         },
         {
-          title: 'More',
+          title: '资源',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
-              href: 'https://github.com/ChaoMixian/vFlow-Docs',
+              href: 'https://github.com/ChaoMixian/vFlow',
+            },
+            {
+              label: '下载应用',
+              href: 'https://github.com/ChaoMixian/vFlow/releases',
+            },
+          ],
+        },
+        {
+          title: '更多',
+          items: [
+            {
+              label: '问题反馈',
+              href: 'https://github.com/ChaoMixian/vFlow/issues',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ChaoMixian. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

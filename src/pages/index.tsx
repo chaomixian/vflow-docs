@@ -21,7 +21,13 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            开始使用 vFlow →
+          </Link>
+          <Link
+            className="button button--outline button--lg"
+            style={{marginLeft: '1rem'}}
+            to="https://github.com/ChaoMixian/vFlow">
+            GitHub
           </Link>
         </div>
       </div>
@@ -33,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="vFlow - Android 可视化工作流自动化工具文档">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
