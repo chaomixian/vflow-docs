@@ -145,10 +145,3 @@ UI 交互相关的模块。
 |------|----------|
 | FindTextUntilSnippet | 查找文本代码片段 |
 
-## 快速链接
-
-- [核心模块详解](/docs/modules/core)
-- [交互模块详解](/docs/modules/interaction)
-- [系统模块详解](/docs/modules/system)
-- [逻辑模块详解](/docs/modules/logic)
-- [触发器详解](/docs/modules/triggers)
